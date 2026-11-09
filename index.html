@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>TXMA - architekt Tomasz aleXander Mielczyński | domy pasywne i z naturalnych materiałów</title>
+<meta name="description" content="Koncepcja nowej strony TXMA: pracownia architekta Tomasza aleXandra Mielczyńskiego - projekty domów pasywnych, energooszczędnych i z naturalnych materiałów, od szkicu po nadzór.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-8 -8 106 106'%3E%3Crect x='-8' y='-8' width='106' height='106' fill='%23fff'/%3E%3Cg fill='none' stroke='%23221F20' stroke-width='7' stroke-miterlimit='3'%3E%3Cpath d='M26 29L6 12V86L45 4L57 27'/%3E%3Cpath d='M38 40L45 47L84 12V86L64 44L45 62L32 50'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-900.webp" media="(max-width: 959px)">
+<link rel="preload" as="image" href="img/hero-1600.webp" media="(min-width: 960px)">
+<link rel="stylesheet" href="style.css">
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- monogram TXMA przerysowany z logo: dwie łamane jak szczyty dachów -->
+    <symbol id="logo" viewBox="-4 -4 98 98"><g fill="none" stroke="currentColor" stroke-width="7" stroke-miterlimit="3"><path d="M26 29L6 12V86L45 4L57 27"/><path d="M38 40L45 47L84 12V86L64 44L45 62L32 50"/></g></symbol>
+    <!-- szczyt dachu z okapem + słońce: znacznik nagłówków -->
+    <symbol id="dach" viewBox="0 0 48 20"><path d="M1 18 L20 4 L39 18" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="43" cy="5" r="3.2" fill="#A3472A"/></symbol>
+    <symbol id="i-tel" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z" fill="currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.6 7-12.2A7 7 0 0 0 5 9.8C5 15.4 12 22 12 22z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9.8" r="2.6" fill="currentColor"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2V2.5h-2.8C11.1 2.5 10.5 4.7 10.5 6.3v2.2H8V12h2.5v9.5H14V12h2.7l.4-3.5z" fill="currentColor"/></symbol>
+    <symbol id="i-strz" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></symbol>
+    <symbol id="i-lewo" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-prawo" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  </defs>
+</svg>
+
+<header class="top" id="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#top" aria-label="TXMA - strona główna">
+      <svg class="logo-znak"><use href="#logo"/></svg>
+      <span class="logo-txt"><b>TXMA</b><span>Tomasz aleXander Mielczyński<i class="lg">, architekt</i></span></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#projekty">Projekty</a>
+      <a href="#podejscie">Podejście</a>
+      <a href="#architekt">Architekt</a>
+      <a href="#blog">Blog</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="menu-tel" href="tel:+48604488400"><svg><use href="#i-tel"/></svg>604 488 400</a>
+    </nav>
+    <a class="tel-btn" href="tel:+48604488400"><svg><use href="#i-tel"/></svg><span>604 488 400</span></a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h-hero">
+  <div class="hero-foto">
+    <picture>
+      <source media="(min-width: 960px)" srcset="img/hero-1600.webp">
+      <img src="img/hero-900.webp" width="900" height="600" alt="Dom pasywny w Smochowicach w Poznaniu - drewniana elewacja, przeszklony szczyt i ogród z oczkiem wodnym">
+    </picture>
+    <span class="hero-podpis">Dom pasywny, Poznań-Smochowice, realizacja 2012-2013</span>
+  </div>
+  <div class="hero-txt">
+    <svg class="hero-dach" viewBox="0 0 300 40" aria-hidden="true"><path d="M0 38 L120 6 L240 38" fill="none" stroke="currentColor" stroke-width="2"/><path d="M262 4 L172 40" stroke="#A3472A" stroke-width="1.6" stroke-dasharray="5 5"/><circle cx="270" cy="6" r="6" fill="#A3472A"/></svg>
+    <h1 id="h-hero">Domy wpisane w działkę i&nbsp;w&nbsp;wędrówkę słońca</h1>
+    <p class="lead">Projektuję domy pasywne, energooszczędne i&nbsp;budowane z&nbsp;naturalnych materiałów - od pierwszego szkicu na spotkaniu z&nbsp;inwestorem po nadzór nad budową.</p>
+    <div class="cta">
+      <a class="btn btn-pel" href="#projekty">Zobacz projekty <svg><use href="#i-strz"/></svg></a>
+      <a class="btn btn-obr" href="tel:+48604488400"><svg><use href="#i-tel"/></svg>604 488 400</a>
+    </div>
+    <p class="hero-fakty">Izba Architektów RP · uprawnienia bez ograniczeń od 2010 r.</p>
+  </div>
+</section>
+
+<section class="sek" id="projekty" aria-labelledby="h-proj">
+  <div class="wrap">
+    <div class="sek-gl">
+      <div>
+        <h2 id="h-proj"><svg class="znak"><use href="#dach"/></svg>Projekty i realizacje</h2>
+        <p class="sek-opis">Od domu schowanego pod zielonym dachem po zespół budynków z&nbsp;drewna masywnego w&nbsp;standardzie pasywnym.</p>
+      </div>
+      <div class="strzalki" aria-label="Przewijanie projektów">
+        <button type="button" data-tor="tor-proj" data-k="-1" aria-label="Poprzednie"><svg><use href="#i-lewo"/></svg></button>
+        <button type="button" data-tor="tor-proj" data-k="1" aria-label="Następne"><svg><use href="#i-prawo"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="tor" id="tor-proj" tabindex="0" aria-label="Projekty, przewiń w bok">
+    <article class="karta">
+      <img src="img/p-architerra3.webp" width="900" height="529" loading="lazy" alt="ArchiTerra III - wizualizacja domu pod zielonym dachem na skraju lasu">
+      <div class="karta-txt"><span class="meta">Nadwiślański Park Krajobrazowy · projekt</span><h3>ArchiTerra III</h3><p>Dom pod miękkim łukiem zielonego dachu, ściany z&nbsp;betonu konopnego, elewacja z&nbsp;rozbiórkowej cegły.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-stodola.webp" width="900" height="600" loading="lazy" alt="Wielkopolska Stodoła - ceglana elewacja, drewniane drzwi w łukowym otworze, bruk">
+      <div class="karta-txt"><span class="meta">Wielkopolska · realizacja</span><h3>Wielkopolska Stodoła</h3><p>Dom, który do złudzenia przypomina zaadaptowaną starą stodołę. Za historycznym detalem - współczesna technika.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-smochowice.webp" width="900" height="600" loading="lazy" alt="Dom w Smochowicach - drewniana elewacja, garaż i zadaszony wjazd">
+      <div class="karta-txt"><span class="meta">Poznań · realizacja 2012-2013</span><h3>Smochowice</h3><p>Dom jednorodzinny w&nbsp;standardzie budynku pasywnego, 197&nbsp;m² z&nbsp;garażem.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-osiedle.webp" width="900" height="577" loading="lazy" alt="Bezemisyjne osiedle - wizualizacja domów z fotowoltaiką na południowych połaciach">
+      <div class="karta-txt"><span class="meta">Przy autostradzie A1 · powstaje</span><h3>Bezemisyjne osiedle</h3><p>Pasywne domy o&nbsp;dodatnim bilansie energii: drewno masywne, celuloza, płyty ze słomy.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-sniezka.webp" width="900" height="600" loading="lazy" alt="Dom z widokiem na Śnieżkę - ciemna bryła na pochyłej działce zimą">
+      <div class="karta-txt"><span class="meta">Lubawka · realizacja</span><h3>Dom z widokiem na Śnieżkę</h3><p>Dom jednorodzinny z&nbsp;garażem na mocno pochylonej działce.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-jezioro.webp" width="900" height="590" loading="lazy" alt="Dom nad jeziorem - ciemna drewniana bryła z ceglanym kominem wśród sosen">
+      <div class="karta-txt"><span class="meta">Okolice Giżycka · realizacja</span><h3>Dom nad jeziorem</h3><p>Dom letni wybudowany nad jeziorem.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-puszczykowo.webp" width="900" height="675" loading="lazy" alt="Dom w Puszczykowie - jasna bryła z żółtym podbiciem dachu wśród sosen">
+      <div class="karta-txt"><span class="meta">Puszczykowo</span><h3>Dom w Puszczykowie</h3><p>Dom jednorodzinny wśród wysokich sosen.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-swieradow.webp" width="900" height="559" loading="lazy" alt="Dom w Świeradowie - dom z kamienną podmurówką i oświetlonymi oknami o zmierzchu">
+      <div class="karta-txt"><span class="meta">Świeradów-Zdrój</span><h3>Dom w Świeradowie</h3><p>Dom wypoczynkowy niedaleko dolnej stacji kolei gondolowej.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-bioarka.webp" width="900" height="643" loading="lazy" alt="Bio Arka - biały dom z łukowym dachem i kolektorami słonecznymi">
+      <div class="karta-txt"><span class="meta">Dom Trzon · wyróżnienie Muratora 2011</span><h3>Bio Arka</h3><p>Dom pod łukowym dachem, z&nbsp;pomieszczeniami ułożonymi wokół centralnego trzonu kominowego.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-architerra.webp" width="900" height="639" loading="lazy" alt="ArchiTerra - wizualizacja domu wtopionego w zielony pagórek">
+      <div class="karta-txt"><span class="meta">Koncepcja</span><h3>ArchiTerra</h3><p>Dom wtopiony w&nbsp;teren, pod zielonym dachem.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-ekonomiczny.webp" width="900" height="617" loading="lazy" alt="Dom eko_nomiczny - jasny dom z ceglanym pasem i dwuspadowym dachem">
+      <div class="karta-txt"><span class="meta">Projekt</span><h3>Dom eko_nomiczny</h3><p>Mały, ekonomiczny dom dla pięcioosobowej rodziny, inspirowany wielkopolską wsią.</p></div>
+    </article>
+    <article class="karta">
+      <img src="img/p-domdziecka.webp" width="900" height="636" loading="lazy" alt="Zespół budynków domu dziecka - białe budynki z kolorowymi ościeżami okien">
+      <div class="karta-txt"><span class="meta">Zgorzelec · projekt</span><h3>Zespół budynków domu dziecka</h3><p>Prefabrykacja z&nbsp;drewna masywnego HBE w&nbsp;standardzie domów pasywnych.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="sek sek-szara" id="podejscie" aria-labelledby="h-pod">
+  <div class="wrap pod">
+    <figure class="okap">
+      <svg viewBox="0 0 560 380" role="img" aria-labelledby="okap-t">
+        <title id="okap-t">Przekrój domu z głębokim okapem: wysokie letnie słońce zatrzymuje się na okapie, niskie zimowe wpada głęboko do wnętrza</title>
+        <g fill="none" stroke="#221F20" stroke-width="2.4">
+          <path d="M20 330 H540"/>
+          <path d="M100 222 L280 92 L460 222"/>
+          <path d="M170 330 V171 M390 330 V171"/>
+          <path d="M170 318 H390" stroke-width="1.2"/>
+        </g>
+        <rect x="166" y="226" width="8" height="88" fill="#fff" stroke="#221F20" stroke-width="1.6"/>
+        <g stroke="#A3472A" stroke-width="2" stroke-dasharray="7 6" fill="none">
+          <path d="M44 32 L100 222"/>
+          <path d="M100 222 L128 318" stroke-dasharray="2 5" opacity=".55"/>
+          <path d="M18 218 L170 256 L390 311"/>
+        </g>
+        <circle cx="40" cy="22" r="13" fill="#A3472A"/>
+        <circle cx="12" cy="216" r="9" fill="#fff" stroke="#A3472A" stroke-width="3"/>
+        <path d="M174 256 L390 311 L390 318 L174 318 Z" fill="#A3472A" opacity=".12"/>
+        <g font-family="IBM Plex Mono, monospace" font-size="15" fill="#221F20">
+          <text x="64" y="52">latem: cień okapu</text>
+          <text x="232" y="232">zimą: słońce</text><text x="232" y="252">w głąb domu</text>
+          <text x="20" y="356" fill="#6B6869">południe</text>
+          <text x="470" y="356" fill="#6B6869">północ</text>
+        </g>
+      </svg>
+      <figcaption>Okap z wpisu „O pożytkach z okapu”: proporcje dobrane tak, by latem chronić wnętrze przed przegrzaniem, a&nbsp;zimą wpuścić nisko operujące słońce.</figcaption>
+    </figure>
+    <div class="pod-txt">
+      <h2 id="h-pod"><svg class="znak"><use href="#dach"/></svg>Dom zaczyna się od słońca i&nbsp;działki</h2>
+      <p class="sek-opis">Dzienna i&nbsp;roczna wędrówka słońca wyznacza bryłę, okna i&nbsp;układ pomieszczeń. Dopiero potem przychodzi forma.</p>
+      <ol class="zasady">
+        <li><b>Orientacja i&nbsp;kształt</b><span>Sypialnia i&nbsp;kuchnia dostają poranne światło, salon i&nbsp;taras południowe, a&nbsp;pomieszczenia gospodarcze chronią dom od zachodu.</span></li>
+        <li><b>Okap i&nbsp;strefa przejścia</b><span>Głęboki okap, podcień albo ganek - miejsce na letnią kuchnię, drewutnię czy ogród zimowy, zamiast dostawianych później markiz.</span></li>
+        <li><b>Materiały naturalne i&nbsp;z&nbsp;odzysku</b><span>Drewno masywne, słoma, celuloza, beton konopny, tynk gliniany, cegła z&nbsp;rozbiórki.</span></li>
+        <li><b>Dom i&nbsp;działka jako system</b><span>Woda, ogród i&nbsp;energia projektowane razem z&nbsp;domem: deszczówka, grządki wzdłuż poziomic, fotowoltaika na południowej połaci.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="realizacja" aria-labelledby="h-stod">
+  <div class="wrap stod">
+    <div class="stod-txt">
+      <h2 id="h-stod"><svg class="znak"><use href="#dach"/></svg>Wielkopolska Stodoła</h2>
+      <p>W&nbsp;bezpośredniej bliskości obszaru Natura 2000, pośród rozproszonej wiejskiej zabudowy, powstał dom, który na życzenie inwestorów miał do złudzenia przypominać starą stodołę. Mało kto z&nbsp;odwiedzających wierzy, że to nie adaptacja dawnego budynku.</p>
+      <p>Dwie przesunięte względem siebie bryły - mieszkalna i&nbsp;gospodarcza - a&nbsp;między nimi wysoka, przeszklona sień ze stołem na 24 osoby i&nbsp;paleniskiem w&nbsp;ceglanej wnęce.</p>
+      <dl class="dane">
+        <div><dt>Powierzchnia</dt><dd>ok. 600 m² z&nbsp;częścią gospodarczą</dd></div>
+        <div><dt>Elewacja</dt><dd>cegła z&nbsp;lokalnej manufaktury, corten</dd></div>
+        <div><dt>Nawierzchnia</dt><dd>bruk bazaltowy z&nbsp;polskiego kamieniołomu</dd></div>
+        <div><dt>Okna</dt><dd>ślusarka aluminiowa w&nbsp;kolorze antracytu</dd></div>
+      </dl>
+    </div>
+    <div class="stod-gal">
+      <div class="tor tor-gal" id="tor-stod" tabindex="0" aria-label="Zdjęcia Wielkopolskiej Stodoły, przewiń w bok">
+        <figure><img src="img/s-1.webp" width="1200" height="800" loading="lazy" alt="Ceglana elewacja z drewnianymi drzwiami w łukowym otworze"></figure>
+        <figure><img src="img/s-2.webp" width="640" height="427" loading="lazy" alt="Dom widziany z łąki, długa ceglana bryła"></figure>
+        <figure><img src="img/s-3.webp" width="640" height="427" loading="lazy" alt="Ceglany szczyt i młode drzewo na bruku"></figure>
+        <figure><img src="img/s-4.webp" width="640" height="427" loading="lazy" alt="Dwie bryły domu i podwórze z bruku bazaltowego"></figure>
+        <figure><img src="img/s-5.webp" width="640" height="403" loading="lazy" alt="Elewacja z czerwonymi okiennicami od strony podwórza"></figure>
+        <figure><img src="img/s-6.webp" width="640" height="427" loading="lazy" alt="Szczyt domu wśród zieleni"></figure>
+        <figure><img src="img/s-8.webp" width="640" height="427" loading="lazy" alt="Ceglana elewacja z okiennicami i rabaty z trawami"></figure>
+      </div>
+      <div class="strzalki">
+        <button type="button" data-tor="tor-stod" data-k="-1" aria-label="Poprzednie zdjęcie"><svg><use href="#i-lewo"/></svg></button>
+        <button type="button" data-tor="tor-stod" data-k="1" aria-label="Następne zdjęcie"><svg><use href="#i-prawo"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap pasyw">
+    <img src="img/smo-2.webp" width="1000" height="667" loading="lazy" alt="Dom pasywny w Smochowicach - drewniana elewacja i przeszklony szczyt">
+    <div class="pasyw-txt">
+      <h3>Dom pasywny w&nbsp;Poznaniu, Smochowice</h3>
+      <dl class="dane dane-mono">
+        <div><dt>Powierzchnia użytkowa</dt><dd>197 m² + garaż</dd></div>
+        <div><dt>Energia pierwotna</dt><dd>36,67 kWh/m²</dd></div>
+        <div><dt>Wentylacja</dt><dd>rekuperacja z&nbsp;gruntowym wymiennikiem ciepła</dd></div>
+        <div><dt>Ciepła woda</dt><dd>kolektory słoneczne, wymiennik kominkowy, kocioł kondensacyjny</dd></div>
+        <div><dt>Bufor</dt><dd>ogród zimowy przy elewacji południowej</dd></div>
+        <div><dt>Projekt / realizacja</dt><dd>2011 / 2012-2013</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sek sek-szara" id="architekt" aria-labelledby="h-arch">
+  <div class="wrap arch">
+    <img class="arch-foto" src="img/architekt.webp" width="1000" height="750" loading="lazy" alt="Architekt Tomasz aleXander Mielczyński, portret czarno-biały">
+    <div class="arch-txt">
+      <h2 id="h-arch"><svg class="znak"><use href="#dach"/></svg>Tomasz aleXander Mielczyński</h2>
+      <p class="sek-opis">Architekt, członek Izby Architektów RP i&nbsp;Ogólnopolskiego Stowarzyszenia Budownictwa Naturalnego. Od początku pracy projektuje i&nbsp;nadzoruje budowę domów pasywnych, energooszczędnych i&nbsp;ekologicznych - jest autorem wielu budynków w&nbsp;standardzie pasywnym wg metodologii Darmstadt, w&nbsp;tym pierwszego w&nbsp;Polsce osiedla domów pasywnych.</p>
+      <div class="arch-kol">
+        <div>
+          <h3>Uprawnienia i&nbsp;wykształcenie</h3>
+          <ul class="lista">
+            <li><span class="rok">2010</span>uprawnienia do projektowania bez ograniczeń</li>
+            <li><span class="rok">2004</span>mgr inż. arch., Politechnika Gdańska, praca „Studium architektury domu pasywnego wg definicji W.&nbsp;Feista”</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Nagrody i&nbsp;wyróżnienia</h3>
+          <ul class="lista">
+            <li><span class="rok">2016</span>Nagroda im. Macieja Nowickiego</li>
+            <li><span class="rok">2014</span>Architektura z&nbsp;Energią - nagroda specjalna za budynek eksperymentalny</li>
+            <li><span class="rok">2011</span>wyróżnienie Muratora za „Dom Trzon”</li>
+            <li><span class="rok">PLGBC</span>główna nagroda w&nbsp;kategorii domów jednorodzinnych za dom na Truskawkowych Polach</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="blog" aria-labelledby="h-blog">
+  <div class="wrap">
+    <div class="sek-gl">
+      <div>
+        <h2 id="h-blog"><svg class="znak"><use href="#dach"/></svg>Notatki z&nbsp;pracowni</h2>
+        <p class="sek-opis">O&nbsp;domach, materiałach i&nbsp;słońcu - z&nbsp;praktyki, nie z&nbsp;katalogu.</p>
+      </div>
+      <div class="strzalki">
+        <button type="button" data-tor="tor-blog" data-k="-1" aria-label="Poprzednie wpisy"><svg><use href="#i-lewo"/></svg></button>
+        <button type="button" data-tor="tor-blog" data-k="1" aria-label="Następne wpisy"><svg><use href="#i-prawo"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="tor tor-blog" id="tor-blog" tabindex="0" aria-label="Wpisy, przewiń w bok">
+    <a class="wpis" href="https://txma.pl/o-budowaniu-ekologicznym-w-ogolnosci/"><span class="meta">15.04.2024</span><h3>O budowaniu ekologicznym w&nbsp;ogólności</h3><p>Dlaczego dom jednorodzinny to najmniej ekologiczny sposób na zamieszkanie - i&nbsp;kiedy może być inaczej.</p><span class="wiecej">Czytaj <svg><use href="#i-strz"/></svg></span></a>
+    <a class="wpis" href="https://txma.pl/architerra-iii/"><span class="meta">22.03.2024</span><h3>ArchiTerra III</h3><p>Dom pod zielonym dachem i&nbsp;warstwą ziemi, która stabilizuje temperaturę wnętrza przez cały rok.</p><span class="wiecej">Czytaj <svg><use href="#i-strz"/></svg></span></a>
+    <a class="wpis" href="https://txma.pl/o-materialach/"><span class="meta">14.04.2023</span><h3>O materiałach</h3><p>Bio_Arka_3 z&nbsp;materiałów naturalnych i&nbsp;pochodzących z&nbsp;recyklingu - na wyraźne życzenie inwestora.</p><span class="wiecej">Czytaj <svg><use href="#i-strz"/></svg></span></a>
+    <a class="wpis" href="https://txma.pl/o-orientacji-ksztalcie-i-funkcji/"><span class="meta">25.11.2022</span><h3>O orientacji i&nbsp;kształcie</h3><p>Wędrówka słońca jako główny wyznacznik bryły i&nbsp;przeszkleń domu.</p><span class="wiecej">Czytaj <svg><use href="#i-strz"/></svg></span></a>
+    <a class="wpis" href="https://txma.pl/o-pozytkach-z-okapu/"><span class="meta">02.07.2020</span><h3>O pożytkach z&nbsp;okapu</h3><p>Czarny dom na Truskawkowych Polach i&nbsp;podcień, który pracuje na roczny bilans energii.</p><span class="wiecej">Czytaj <svg><use href="#i-strz"/></svg></span></a>
+  </div>
+</section>
+
+<section class="sek sek-szara" id="kontakt" aria-labelledby="h-kont">
+  <div class="wrap kont">
+    <div class="kont-txt">
+      <h2 id="h-kont"><svg class="znak"><use href="#dach"/></svg>Porozmawiajmy o&nbsp;Państwa działce</h2>
+      <p class="sek-opis">Najlepiej zacząć od miejsca: gdzie leży działka, jak opada teren i&nbsp;skąd świeci słońce. Od tego zależy cała reszta.</p>
+      <ul class="kontakt-lista">
+        <li><svg><use href="#i-tel"/></svg><a href="tel:+48604488400">604 488 400</a></li>
+        <li><svg><use href="#i-mail"/></svg><a href="mailto:biuro@txma.pl">biuro@txma.pl</a></li>
+        <li><svg><use href="#i-pin"/></svg><span>Gajewo 54A, 64-700 Czarnków</span></li>
+        <li><svg><use href="#i-fb"/></svg><a href="https://www.facebook.com/TXMArchitektura/" rel="noopener">TXMA na Facebooku</a></li>
+      </ul>
+    </div>
+    <form class="form" id="form" novalidate>
+      <label>Imię i&nbsp;nazwisko<input name="imie" autocomplete="name"></label>
+      <label>Telefon lub e-mail<input name="kontakt" autocomplete="email"></label>
+      <label>Gdzie jest działka?<input name="dzialka" placeholder="np. gmina, miejscowość"></label>
+      <label>Wiadomość<textarea name="tresc" rows="4" placeholder="Jaki dom, dla ilu osób, na kiedy"></textarea></label>
+      <button class="btn btn-pel" type="submit">Wyślij zapytanie <svg><use href="#i-strz"/></svg></button>
+      <p class="form-info" id="formInfo" hidden>To formularz pokazowy - w&nbsp;podglądzie nic nie jest wysyłane.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap stopka-in">
+    <div class="st-firma">
+      <a class="logo logo-st" href="#top" aria-label="TXMA - do góry"><svg class="logo-znak"><use href="#logo"/></svg><b>TXMA</b></a>
+      <p>Tomasz Aleksander Mielczyński ARCHITEKT<br>Gajewo 54A, 64-700 Czarnków<br>NIP 888-236-86-56</p>
+    </div>
+    <nav class="st-kol" aria-label="Na skróty">
+      <a href="#projekty">Projekty</a>
+      <a href="#podejscie">Podejście</a>
+      <a href="#architekt">Architekt</a>
+      <a href="#blog">Blog</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+  <div class="wrap stopka-dol">
+    <span>© <span id="rok">2026</span> TXMA · Polityka prywatności</span>
+    <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=txma.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
